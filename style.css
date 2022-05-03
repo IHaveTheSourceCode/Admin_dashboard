@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+  display: grid;
+}
+
+.header {
+  display: flex;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content-title {
+  grid-column: span 2;
+}
